@@ -30,4 +30,49 @@ footer{
     text-align: center;
     padding: 10px;
     background: #4e95ff;
+    color: white;
+}
+
+.social-links {
+        margin-top: 10px;
+}
+
+.social-links>a {
+    margin: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links> a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    color: #000;
+}
+
+/*Project list*/ 
+.Project-list{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Project-card:hover{
+    background-color: #ffffff;
+    border-left: 4px solid #37ace2;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.Project-card:hover{
+    transform: translateY(-5px);
+}
+         
+.Project-card >h3 {
+    margin-top: 0;
+    color: #28a745;
 }
